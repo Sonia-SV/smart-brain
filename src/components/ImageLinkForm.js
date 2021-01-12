@@ -1,14 +1,17 @@
 import React from 'react';
+import {
+  InputBox, DetectButton, CenteredBox, PSmaller,
+} from '../style/styled';
 
 function ImageLinkForm() {
   return (
-    <div>
-      <p>'This Magic Brain will detect faces in your pictures. Git it a try.</p>
-      <div>
-        <input type='text' />
-        <button>Detect</button>
-      </div>
-    </div>
+    <CenteredBox>
+      <PSmaller>This Magic Brain will detect faces in your pictures. Give it a try.</PSmaller>
+      <InputBox>
+        <input type="text" />
+        <DetectButton type="submit">Detect</DetectButton>
+      </InputBox>
+    </CenteredBox>
   );
 }
 

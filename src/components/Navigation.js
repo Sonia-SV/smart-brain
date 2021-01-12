@@ -1,10 +1,12 @@
 import React from 'react';
+import { Nav } from '../style/styled';
 
 function Navigation() {
   return (
-    <nav>
+    <Nav>
+      <p>Smart Brain</p>
       <p>Sing Out</p>
-    </nav>
+    </Nav>
   );
 }
 

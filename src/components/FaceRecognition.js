@@ -1,8 +1,11 @@
 import React from 'react';
+import { Photo } from '../style/styled';
 
 function FaceRecognition() {
   return (
-    <div>FaceRecognition</div>
+    <div>
+      <Photo />
+    </div>
   );
 }
 

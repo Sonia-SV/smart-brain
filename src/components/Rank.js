@@ -1,11 +1,12 @@
 import React from 'react';
+import { CenteredBox, PBigger } from '../style/styled';
 
 function Rank() {
   return (
-    <div>
-      <p>Sonia, your current rank is...</p>
-      <p>#5</p>
-    </div>
+    <CenteredBox>
+      <p>Maricarmen, your current rank is...</p>
+      <PBigger>#5</PBigger>
+    </CenteredBox>
   );
 }
 
