@@ -6,10 +6,18 @@ const breakPoints = {
 
 const tablet = `@media (min-width: ${breakPoints.tablet}px)`;
 
-const darkFontColor = '#b9b9b9';
-const lightFontColor = '#eee';
-const darkBackgroundColor = '#00282a';
-const lightBackgroundColor = '#03595e';
+// const darkFontColor = '#b9b9b9';
+// const lightFontColor = '#eee';
+// const darkBackgroundColor = '#00282a';
+// const lightBackgroundColor = '#03595e';
+// const transparentBackgroundColor = 'rgba(43, 43, 43, 0.4)';
+// const shadowColor = 'rgba(20,20,20,0.68)';
+
+const navFontColor = '#2678BF';
+const lightFontColor = '#F2F2F2';
+const darkFontColor = '#A6A6A6';
+const darkBackgroundColor = '#175073';
+const lightBackgroundColor = '#1C588C';
 const transparentBackgroundColor = 'rgba(43, 43, 43, 0.4)';
 const shadowColor = 'rgba(20,20,20,0.68)';
 
@@ -45,7 +53,7 @@ export const Central = styled.div`
 
 export const Nav = styled.nav`
   font-family: "Courier New", Courier, monospace;
-  color: ${darkFontColor};
+  color: ${navFontColor};
   width: 100%;
   position: fixed;
   ${flexCenter};
