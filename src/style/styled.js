@@ -6,6 +6,7 @@ const breakPoints = {
 
 const tablet = `@media (min-width: ${breakPoints.tablet}px)`;
 
+// const navFontColor = '#b9b9b9'
 // const darkFontColor = '#b9b9b9';
 // const lightFontColor = '#eee';
 // const darkBackgroundColor = '#00282a';
@@ -13,7 +14,7 @@ const tablet = `@media (min-width: ${breakPoints.tablet}px)`;
 // const transparentBackgroundColor = 'rgba(43, 43, 43, 0.4)';
 // const shadowColor = 'rgba(20,20,20,0.68)';
 
-const navFontColor = '#2678BF';
+const navFontColor = '#7790A6';
 const lightFontColor = '#F2F2F2';
 const darkFontColor = '#A6A6A6';
 const darkBackgroundColor = '#175073';
